@@ -1,0 +1,37 @@
+nsim = 10000 
+nA=nB= 100 , sigma^2=10, K=5 exp arms
+All distributions standardized to mean=0, var=10 (per arm)
+
+Pre-computing Stallard-Todd critical value for K=5...
+  u_alpha = 3.4047
+
+=== Misspecification T1E check ===
+Global null: mu_0 = mu_1 = ... = mu_K = 0
+
+--- Normal (baseline) ---
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.0248  0.0195    0.0223 0.0185 0.0229 0.0236
+SE   0.0016  0.0014    0.0015 0.0013 0.0015 0.0015
+
+--- t(df=4) heavy-tailed ---
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.0266  0.0199    0.0231 0.0209 0.0243 0.0258
+SE   0.0016  0.0014    0.0015 0.0014 0.0015 0.0016
+
+--- Lognormal (σ_log=0.5) ---
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.0262  0.0221    0.0252 0.0197 0.0237 0.0252
+SE   0.0016  0.0015    0.0016 0.0014 0.0015 0.0016
+
+
+=== SUMMARY: T1E across distributions ===
+          Normal (baseline) t(df=4) heavy-tailed Lognormal (σ_log=0.5)
+UMPCU                0.0248               0.0266                0.0262
+F-Simes              0.0195               0.0199                0.0221
+F-Dunnett            0.0223               0.0231                0.0252
+InvN-S               0.0185               0.0209                0.0197
+InvN-D               0.0229               0.0243                0.0237
+ST                   0.0236               0.0258                0.0252
+
+MC SE at alpha=0.025: 0.0016 
+=== Complete ===

@@ -1,0 +1,91 @@
+Pre-computing Stallard-Todd critical values...
+  K=3: u_alpha = 3.0654 (2.2s)
+  K=3: u_alpha = 3.2218 (2.2s)
+  K=4: u_alpha = 3.3266 (2.4s)
+  K=5: u_alpha = 3.4047 (2.5s)
+  K=6: u_alpha = 3.4665 (2.7s)
+  K=7: u_alpha = 3.5175 (2.7s)
+
+nsim = 10000 
+MC SE at alpha=0.025: 0.0016 
+
+=== TABLE 1: Type I Error vs K ===
+K = 3 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D  ST
+Rate 0.0241  0.0215    0.0218 0.0228 0.0239 0.0263
+SE   0.0015  0.0015    0.0015 0.0015 0.0015 0.0016
+
+K = 4 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.0273  0.0242    0.0266 0.0247 0.0270 0.0288
+SE   0.0016  0.0015    0.0016 0.0016 0.0016 0.0017
+
+K = 5 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.0225  0.0197    0.0212 0.0193 0.0227 0.0230
+SE   0.0015  0.0014    0.0014 0.0014 0.0015 0.0015
+
+K = 6 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.0246  0.0205    0.0224 0.0179 0.0220 0.0235
+SE   0.0015  0.0014    0.0015 0.0013 0.0015 0.0015
+
+K = 7 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.0244  0.0211    0.0238 0.0185 0.0242 0.0249
+SE   0.0015  0.0014    0.0015 0.0013 0.0015 0.0016
+
+=== TABLE 2(a): Power, Large mu1-mu2 ===
+K = 3 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D  ST
+Rate 0.8734  0.8616    0.8660 0.8744 0.8804 0.8880
+SE   0.0034  0.0035    0.0034 0.0033 0.0032 0.0032
+
+K = 4 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8704  0.8350    0.8476 0.8410 0.8617 0.8667
+SE   0.0034  0.0037    0.0036 0.0037 0.0035 0.0034
+
+K = 5 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8578  0.8032    0.8205  0.801 0.8343 0.8423
+SE   0.0035  0.0040    0.0038  0.004 0.0037 0.0036
+
+K = 6 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8588  0.7923    0.8182 0.7846 0.8292 0.8391
+SE   0.0035  0.0041    0.0039 0.0041 0.0038 0.0037
+
+K = 7 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8508  0.7765    0.8039 0.7625 0.8153 0.8246
+SE   0.0036  0.0042    0.0040 0.0043 0.0039 0.0038
+
+=== TABLE 2(b): Power, Small mu1-mu2 ===
+K = 3 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D  ST
+Rate 0.8612  0.9328    0.9304 0.9438 0.9417 0.9444
+SE   0.0035  0.0025    0.0025 0.0023 0.0023 0.0023
+
+K = 4 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8611  0.9129    0.9159 0.9231 0.9302 0.9316
+SE   0.0035  0.0028    0.0028 0.0027 0.0025 0.0025
+
+K = 5 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8570  0.8875    0.8986 0.8978 0.9119 0.9146
+SE   0.0035  0.0032    0.0030 0.0030 0.0028 0.0028
+
+K = 6 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8579  0.8736    0.8894 0.8791 0.9066 0.9105
+SE   0.0035  0.0033    0.0031 0.0033 0.0029 0.0029
+
+K = 7 :
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8520  0.8574    0.8762 0.8599 0.8911 0.8951
+SE   0.0036  0.0035    0.0033 0.0035 0.0031 0.0031
+
+
+=== Complete ===

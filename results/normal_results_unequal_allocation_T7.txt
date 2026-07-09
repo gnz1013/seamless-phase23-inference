@@ -1,0 +1,17 @@
+
+=== T1E: mu=0, K=5 ===
+1:1 (baseline)       nB_t=100 nB_c=100: U=0.0258 FS=0.0226 FD=0.0244 NS=0.0218 ND=0.0252
+2:1 (treat-heavy)    nB_t=133 nB_c=67: U=0.0292 FS=0.0228 FD=0.0266 NS=0.0212 ND=0.0250
+1:2 (ctrl-heavy)     nB_t=67 nB_c=133: U=0.0246 FS=0.0164 FD=0.0198 NS=0.0182 ND=0.0224
+
+=== Power: large mu1-mu2, K=5 ===
+1:1 (baseline)       nB_t=100 nB_c=100: U=0.8548 FS=0.7772 FD=0.8018 NS=0.7648 ND=0.8182
+2:1 (treat-heavy)    nB_t=133 nB_c=67: U=0.8606 FS=0.7586 FD=0.7838 NS=0.7508 ND=0.7926
+1:2 (ctrl-heavy)     nB_t=67 nB_c=133: U=0.8382 FS=0.7692 FD=0.7964 NS=0.7516 ND=0.8000
+
+=== Power: small mu1-mu2, K=5 ===
+1:1 (baseline)       nB_t=100 nB_c=100: U=0.8590 FS=0.8756 FD=0.8890 NS=0.8750 ND=0.9012
+2:1 (treat-heavy)    nB_t=133 nB_c=67: U=0.8708 FS=0.8520 FD=0.8680 NS=0.8562 ND=0.8850
+1:2 (ctrl-heavy)     nB_t=67 nB_c=133: U=0.8074 FS=0.8504 FD=0.8664 NS=0.8526 ND=0.8802
+
+=== Unequal allocation simulations complete ===

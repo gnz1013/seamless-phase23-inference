@@ -1,0 +1,82 @@
+Pre-computing Stallard-Todd critical values for each gamma...
+  gamma=0.25: (nA=50, nB=150), r=3.000, u_alpha=4.6087 (0.1s)
+  gamma=0.40: (nA=80, nB=120), r=1.500, u_alpha=3.7521 (0.1s)
+  gamma=0.50: (nA=100, nB=100), r=1.000, u_alpha=3.4047 (0.0s)
+  gamma=0.60: (nA=120, nB=80), r=0.667, u_alpha=3.1447 (0.0s)
+  gamma=0.75: (nA=150, nB=50), r=0.333, u_alpha=2.8523 (0.1s)
+
+=== TABLE 7: Timing sensitivity (6 methods) ===
+K = 5 experimental arms, per-arm total = 200, sigma^2 = 10
+
+
+--- Large mu1-mu2 gap ---
+gamma=0.25 (nA=50, nB=150):
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8010  0.7350    0.7614 0.7216 0.7816 0.7886
+SE   0.0056  0.0062    0.0060 0.0063 0.0058 0.0058
+
+gamma=0.40 (nA=80, nB=120):
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8282  0.7712    0.7938 0.7474 0.8046 0.8136
+SE   0.0053  0.0059    0.0057 0.0061 0.0056 0.0055
+
+gamma=0.50 (nA=100, nB=100):
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8638  0.7910    0.8172 0.7832 0.8298 0.8362
+SE   0.0049  0.0058    0.0055 0.0058 0.0053 0.0052
+
+gamma=0.60 (nA=120, nB=80):
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8700  0.8032    0.8206 0.7948 0.8330 0.8380
+SE   0.0048  0.0056    0.0054 0.0057 0.0053 0.0052
+
+gamma=0.75 (nA=150, nB=50):
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8682  0.7956    0.8140 0.8066 0.8306 0.8380
+SE   0.0048  0.0057    0.0055 0.0056 0.0053 0.0052
+
+
+=== Large-gap summary table ===
+            UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+gamma=0.25 0.8010  0.7350    0.7614 0.7216 0.7816 0.7886
+gamma=0.40 0.8282  0.7712    0.7938 0.7474 0.8046 0.8136
+gamma=0.50 0.8638  0.7910    0.8172 0.7832 0.8298 0.8362
+gamma=0.60 0.8700  0.8032    0.8206 0.7948 0.8330 0.8380
+gamma=0.75 0.8682  0.7956    0.8140 0.8066 0.8306 0.8380
+
+--- Small mu1-mu2 gap ---
+gamma=0.25 (nA=50, nB=150):
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8800  0.8358    0.8604 0.8350 0.8788 0.8866
+SE   0.0046  0.0052    0.0049 0.0052 0.0046 0.0045
+
+gamma=0.40 (nA=80, nB=120):
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8708  0.8630    0.8790 0.8606 0.8928 0.9002
+SE   0.0047  0.0049    0.0046 0.0049 0.0044 0.0042
+
+gamma=0.50 (nA=100, nB=100):
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8532  0.8746    0.8888 0.8792 0.9050 0.9074
+SE   0.0050  0.0047    0.0044 0.0046 0.0041 0.0041
+
+gamma=0.60 (nA=120, nB=80):
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.8336  0.8800    0.8926 0.8908 0.9104 0.9122
+SE   0.0053  0.0046    0.0044 0.0044 0.0040 0.0040
+
+gamma=0.75 (nA=150, nB=50):
+      UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+Rate 0.7664  0.8820    0.8898 0.8950 0.9102 0.9124
+SE   0.0060  0.0046    0.0044 0.0043 0.0040 0.0040
+
+
+=== Small-gap summary table ===
+            UMPCU F-Simes F-Dunnett InvN-S InvN-D     ST
+gamma=0.25 0.8800  0.8358    0.8604 0.8350 0.8788 0.8866
+gamma=0.40 0.8708  0.8630    0.8790 0.8606 0.8928 0.9002
+gamma=0.50 0.8532  0.8746    0.8888 0.8792 0.9050 0.9074
+gamma=0.60 0.8336  0.8800    0.8926 0.8908 0.9104 0.9122
+gamma=0.75 0.7664  0.8820    0.8898 0.8950 0.9102 0.9124
+
+=== Table 7 complete ===
